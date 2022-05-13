@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+
+}
+
+#container {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+#container h2 {
+    text-align: center;
+
+    color: white;
+    margin-left: 30px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+label {
+    color: white;
+}
+
+#button {
+    color: white;
+    width: 110px;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* border-radius:10px;*/
+
+
+    font-weight: sans-serif;
+
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#outputcm {
+    color: white;
+    width: 100px;
+    color: yellow;
+    margin-top: 10px 20px 20px 20px;
+    border: #0a0a0a;
+    font-family: inherit;
+    font-weight: bold;
+
+    text-decoration: black;
+}
+
+#inputFeet {
+    margin-left: 20px;
+
+}

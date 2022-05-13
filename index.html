@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="mega.css">
+</head>
+
+<body>
+
+  <!--container  for unit converter-->
+  <div id="container">
+    <h2>Unit Converter</h2>
+    <p>
+      <!--label for feet text-->
+      <label>Feet</label>
+      <!--inputfeet  for unit converter-->
+      <input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter(this.value)"
+        onchange="LengthConverter(this.value)">
+    </p>
+    <!--button convert to cm-->
+    <button id="button" button onclick="myfunction()">convert to cm</button>
+    <br></br>
+    <!--span -->
+    <span id="outputcm"></span>
+  </div>
+
+  <script>
+
+    //script for unit converter//
+    function LengthConverter(valNum) {
+      if (valNum > 0) {
+        document.getElementById("outputcm").innerHTML = valNum / 0.032808;
+      }
+      else {
+        alert("Please enter a feet value greater than 0");
+      }
+
+    }
+  </script>
+</body>
+
+</html>
